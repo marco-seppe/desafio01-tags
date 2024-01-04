@@ -4,16 +4,20 @@
     </head>
     <body>
         <h1>Descubra o básico do HTML</h1><hr>
+        
         <h2>Navegue pelo índice</h2>
+        
         <ul>
             <li><a href="#item1">O que é HTML?</a></li>
             <li><a href="#item2">O que são TAGs?</a></li>
             <li><a href="#item3">Alguns exemplos de tags e como usá-las</a></li>
-            <li><a href="#item4">item 4</a></li>
-            <li><a href="#item5">item 5</a></li>
+            <li><a href="#item4">Sobre a tag "font"</a></li>
+            <li><a href="#item5">Concluindo</a></li>
+            <li><a href="#item6">Fontes</a></li>
         </ul>
 
         <h3 id="item1">O que é HTML?</h3>
+
         <p>HTML significa <i>Hypertext markup language</i>, que é basicamente a linguagem que o browser lê, compreende e nos apresenta de uma forma mais amigável. Apesar de conter "language" no nome, o HTML não é propriamente uma linguagem de programação. HTML é o padrão de linguagem de marcação de texto para a estruturação de páginas web. Ele consiste em um série de elementos e TAGs que diz ao browser como mostrar e estruturar o seu conteúdo.
             <sup><a href="#fonte1">1</a></sup></p>
         
@@ -21,18 +25,30 @@
         <p>TAGs são todos os elementos que um tipo de característica do texto que será interpretada pelo browser. O navegador lê todo o HTML e suas tags, para então apresentar ao client como se deve. Ele não irá mostrar as TAGs em si, mas sim as suas características junto do texto (e outros elementos que serão estudados mais pra frente, como CSS, Javascript e todo o universo que se pode criar com esse conjunto).             
             <sup><a href="#fonte1">1</a></sup></p>
         
-        <h3 id="item3">Alguns exemplos de tags e como usá-las</h3>
-
+        <h3 id="item3">Alguns exemplos de tags</h3>
+        <small>Posicione o cursor sob a palavra sublinhada e veja a semântica correta!</small></p>
+                <ul>
+                    <li><strong>Negrito:</strong> é comandado pela tag "<abbr title="<strong></strong>">strong</abbr>"</li>
+                    <li><i>Itálico:</i> é comandado pela tag "<abbr title="<i></i>">i</abbr>"</li>
+                    <li><mark>Grifar ou destacar:</mark> é comandado pela tag "<abbr title="<mark></mark>">mark</abbr>"</li>
+                    <li><u>Sublinhar:</u> é comandado pela tag "<abbr title="<u></u>">u</abbr>"</li>
+                    <li><del>Tachar:</del> é comandado pela tag "<abbr title="<del></del>">del</abbr>"</li>
+                </ul>
+        
+        <h4 id="item4">Sobre a tag "font"</h4>
+        <p>Segundo a W3schools, esta TAG definia o estilo do texto, como cor, tamanho e tipo de fonte. Porém a tag "font" está sendo descontinuada no HTML5.</p>
+        <blockquote cite="https://www.w3schools.com/tags/tag_font.asp"><i>"Not Supported in HTML5. The "font" tag was used in HTML 4 to specify the font face, font  size, and color of text."</i><sub><a href="#fonte2">2</a></sub></p></blockquote>
+        
+        <h5 id="item5">Concluindo</h5>
+        <p>O curso está só começando. Esses são alguns poucos exemplos de como o HTML funciona, porém as possibilidades são quase infinitas. Literalmente, vemos todos os dias em todos os websites a versatilidade do HTML, principalmente quando somadas ao CSS e linguagens de programação. Enfim, vamos para as próximas aulas!</p>
+        <p>E não menos importante, é sempre bom treinar o uso do Git e GitHub, pois apesar de ser uma grande ferramenta, é muito fácil errar os comandos.</p>
     </body>
 
     <footer>
-        <h6>Fontes
+        <h6 id="item6">Fontes
             <ol>
                 <li id="fonte1"><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">HTML Introduction</a></li>
-                <li id="fonte2"></li>
-                <li id="fonte3"></li>
-                <li id="fonte4"></li>
-                <li id="fonte5"></li>
+                <li id="fonte2"><a href="https://www.w3schools.com/tags/tag_font.asp" target="_blank">HTML font Tag</a></li>
             </ol>
         </h6>
     </footer>
